@@ -3,7 +3,7 @@ plugins {
     kotlin("plugin.serialization") version "1.3.61"
 }
 
-group = "org.example"
+group = "checker.operators"
 version = "1.0-SNAPSHOT"
 
 repositories {

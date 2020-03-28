@@ -1,5 +1,5 @@
 {
-    "С": {
+    "C": {
       "operators": [
         "!", "!=", "%", "%=", "&", "&&", "&=",
         "*", "*=", "+", "++", "+=", "-", "--", "-=", "->", ".", "/", "/=", "<", "<<", "<<=", "<=", "=", "==", ">", ">=", ">>", ">>=",
@@ -11,12 +11,28 @@
         "#ifdef", "#ifndef", "#include", "#pragma", "#undef"
       ]
     },
-    "С++": {
-      "operators": [],
-      "keywords" : []
+    "C++": {
+      "operators": [
+        "!", "!=", "%", "%=", "&", "&&", "&=",
+        "*", "*=", "+", "++", "+=", "-", "--", "-=", "->", ".", "/", "/=", "<", "<<", "<<=", "<=", "=", "==", ">", ">=", ">>", ">>=",
+        "^", "^=", "|", "|=", "||", "~"
+      ],
+      "keywords" : ["auto", "break", "case", "char", "const", "continue", "default", "do", "double", "else", "enum",
+        "extern", "float", "for", "goto", "if", "inline", "int", "long", "register", "restrict", "return", "short", "signed",
+        "sizeof", "static", "switch", "typedef", "union", "unsigned", "void", "volatile", "while", "#define", "#else", "#endif",
+        "#ifdef", "#ifndef", "#include", "#pragma", "#undef"
+      ]
     },
     "C#": {
-      "operators": [],
-      "keywords" : []
+      "operators": [
+        "!", "!=", "%", "%=", "&", "&&", "&=",
+        "*", "*=", "+", "++", "+=", "-", "--", "-=", "->", ".", "/", "/=", "<", "<<", "<<=", "<=", "=", "==", ">", ">=", ">>", ">>=",
+        "^", "^=", "|", "|=", "||", "~"
+      ],
+      "keywords" : ["auto", "break", "case", "char", "const", "continue", "default", "do", "double", "else", "enum",
+        "extern", "float", "for", "goto", "if", "inline", "int", "long", "register", "restrict", "return", "short", "signed",
+        "sizeof", "static", "switch", "typedef", "union", "unsigned", "void", "volatile", "while", "#define", "#else", "#endif",
+        "#ifdef", "#ifndef", "#include", "#pragma", "#undef"
+      ]
     }
 }
